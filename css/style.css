@@ -222,3 +222,105 @@ body {
 	line-height: 26px;
 	border-radius: 5px;
 }
+.link_block {
+	background-color: #ececec;
+	border-radius: 5px;
+	margin-bottom: 50px;
+}
+.link_block_p {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 36px;
+	color: #7f8c8c;
+}
+.link_block_span {
+	font-size: 13px;
+	line-height: 21px;
+	color: #777777;
+}
+.link_block_1 {
+	float: left;
+	padding: 25px 34px;
+}
+.link_block_2 {
+	float: right;
+	padding: 42px 34px;
+}
+.link_block_a {
+	text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 7px 24px;
+	background-color: #e8645a;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0px -3px 0px 0px rgba(226, 83, 75, 1);
+	-moz-box-shadow:    inset 0px -3px 0px 0px rgba(226, 83, 75, 1);
+	box-shadow:         inset 0px -3px 0px 0px rgba(226, 83, 75, 1);
+}
+.thubs__block {
+	display: flex;
+    flex-flow: row wrap;
+    margin: 8% 0 6%;
+}
+.thubs__block_thub {
+	flex: 1 0 25%;
+    max-width: 263px;
+    height: auto;
+    margin: 1.28%;
+	position: relative;
+	width: 22%;
+	background-color: #f8f8f8;
+	border-radius: 5px;
+	padding: 48px 17px;
+	text-align: center;
+	-webkit-box-shadow: inset 0px -4px 0px 0px rgba(229, 230, 230, 1);
+	-moz-box-shadow:    inset 0px -4px 0px 0px rgba(229, 230, 230, 1);
+	box-shadow:         inset 0px -4px 0px 0px rgba(229, 230, 230, 1);
+}
+.thub_i {
+	font-size: 60px;
+	line-height: 7px;
+	color: #62bdbd;
+}
+.thub_p {
+	color: #7f8c8c;
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 800;
+}
+.thub_span{
+	font-size: 13px;
+	line-height: 21px;
+	color: #777777;
+}
+.thub_a {
+	position: absolute;
+	bottom: -15px;
+	left: 30%;
+	text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: lowercase;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 7px 24px;
+    background-color: #76c7c0;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0px -4px 0px 0px rgba(98, 185, 176, 1);
+	-moz-box-shadow:    inset 0px -4px 0px 0px rgba(98, 185, 176, 1);
+	box-shadow:         inset 0px -4px 0px 0px rgba(98, 185, 176, 1);
+}
+.thubs__block_thub:hover {
+	background-color: #ffffff;
+}
+.thubs__block_thub:hover .thub_i {
+	color: #e2534b;
+}
+.thubs__block_thub:hover .thub_a {
+	background-color: #e8645a;
+    -webkit-box-shadow: inset 0px -4px 0px 0px rgba(226, 83, 75, 1);
+	-moz-box-shadow:    inset 0px -4px 0px 0px rgba(226, 83, 75, 1);
+	box-shadow:         inset 0px -4px 0px 0px rgba(226, 83, 75, 1);
+}

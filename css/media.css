@@ -1,6 +1,16 @@
 
-@media screen and (max-width: 780px) {
-	
+@media screen and (max-width: 1015px) {
+	.header {
+		text-align: center;
+	}
+	.header__logo {
+    padding: 10px 0 10px;
+	}
+	.header__nav {
+	text-align: center;
+    padding: 10px 0;
+    margin: 0;
+	}
 }
 @media screen and (max-width: 480px) {
 	
