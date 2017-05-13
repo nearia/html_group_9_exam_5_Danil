@@ -267,7 +267,6 @@ body {
 .thubs__block_thub {
 	flex: 1 0 25%;
     max-width: 263px;
-    height: auto;
     margin: 1.28%;
 	position: relative;
 	width: 22%;
